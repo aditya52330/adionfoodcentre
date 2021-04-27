@@ -1,0 +1,172 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0%;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: blue;
+  border-bottom: 5px gold solid;
+}
+
+header h1 {
+  padding: 7px;
+}
+
+.yup {
+  overflow: hidden;
+}
+
+.yup li a {
+  text-decoration: none;
+  color: gold;
+}
+
+.yup li a:hover {
+  font-weight: bold;
+  padding: 2px;
+  color: aliceblue;
+}
+
+.yup li {
+  list-style: none;
+  display: inline;
+  padding: 5px;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  padding: 0 20px 0 20px;
+  text-transform: uppercase;
+}
+
+#navbar nav {
+  float: right;
+  padding-top: 15px;
+  padding-right: 5px;
+}
+
+#navbar h1 {
+  margin: 0;
+  float: left;
+}
+
+#navbar {
+  overflow: hidden;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+#home img {
+  height: 650px;
+  width: 100%;
+}
+
+#about {
+  padding: 10px;
+  margin: 10px;
+  background-color: #fff;
+}
+
+#about li {
+  border: 10px blue solid;
+  list-style: none;
+  padding: 20px;
+  margin: 20px;
+  align-content: center;
+}
+
+#about h2 {
+  text-align: center;
+  color: burlywood;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#services {
+  padding: 10px;
+  margin: 10px;
+  background-color: blue;
+}
+
+#services li {
+  border: 10px gold solid;
+  list-style: none;
+  padding: 20px;
+  margin: 20px;
+}
+
+#services h2 {
+  text-align: center;
+  color: burlywood;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.image {
+  width: 100%;
+}
+
+.each {
+  padding: 20px;
+}
+
+#clothes {
+  width: 100%;
+}
+
+#contact h2 {
+  text-align: center;
+  color: burlywood;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#clay {
+  width: 80%;
+  float: right;
+  padding: 20px;
+  margin: 10px;
+  font-size: 30px;
+  margin-right: 75px;
+}
+
+footer {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  background-color: gold;
+  color: blue;
+}
+
+@media (max-width: 600px) {
+  .yup {
+    float: none;
+    padding-right: 33px;
+  }
+  header h1 {
+    float: none;
+    padding-left: 50px;
+  }
+  #clay {
+    width: 80%;
+    float: none;
+    padding: 20px;
+    margin: 10px;
+    font-size: 30px;
+    margin-right: 10px;
+    margin-left: 30px;
+  }
+}
